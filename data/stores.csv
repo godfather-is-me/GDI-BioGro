@@ -1,0 +1,6 @@
+StoreID,Name,Lat,Long,Address,Wheelchair Accessible,Open time,Close time,Pets Allowed
+1,Te Atatu Fruit & Vege,-36.87363709050962,174.64570272326705,"149 Te Atatu Road, Te Atatū South, Auckland 0610, New Zealand",True,8:30 am,6:00 pm,False
+2,FAV parnell,-36.85270250346494,174.7861865674889,"64 Gladstone Road, Parnell, Auckland 1052, New Zealand",False,8:30 am,6:30 pm,False
+3,Howick Village Grocer,-36.89344438017496,174.93057477313258,"33 Picton Street, Howick, Auckland 2014, New Zealand",False,7:00 am,6:00 pm,False
+4,Commonsense Kilbirnie,-41.31783190781966,174.7953554843551,"37 Rongotai Road, Kilbirnie, Wellington 6022, New Zealand",True,8:00 am,7:00 pm,True
+5,The Grocer's Shed,-41.34293521545335,174.77084976331818,"30 Reef Street, Island Bay, Wellington 6023, New Zealand",False,8:00 am,3:00 pm,True
