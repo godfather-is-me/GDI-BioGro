@@ -3,6 +3,7 @@ import data as dt
 
 import producer as pd
 import customer as ct
+import welcome as wc
 
 
 def draw_sidebar():
@@ -16,7 +17,7 @@ def draw_sidebar():
     page = st.sidebar.radio("Radio", topics, label_visibility="collapsed")
 
     if page == topics[0]:
-        pass
+        wc.draw_all()
     elif page == topics[1]:
         pd.draw_all()
     elif page == topics[2]:
