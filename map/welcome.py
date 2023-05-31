@@ -12,10 +12,10 @@ def intro_image():
         st.write("")
 
     with col2:
-        st.write("")
+        st.image(image, caption='BioGro')
 
     with col3:
-        st.image(image, caption='BioGro')
+        st.write("")
         
 
 def title():
