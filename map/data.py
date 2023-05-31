@@ -3,6 +3,7 @@ import pandas as pd
 
 # Global df
 df = pd.read_csv("../data/products.csv")
+sr = pd.read_csv("../data/stores.csv")
 
 def get_licensees():
     """
@@ -15,4 +16,16 @@ def get_prods_from_licensee(name: str):
     """
     Get products sold for a given license holder
     """
-    return df[df["Licensee"] == name][["Product", "Variety", "Store #"]]
+    return df[df["Licensee"] == name]
+
+def get_products():
+    """
+    Function to get all products from the list
+    """
+    return df["Product"].unique()
+
+def get_stores():
+    """
+    Get store information
+    """
+    return sr
