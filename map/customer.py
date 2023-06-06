@@ -5,7 +5,7 @@ def title():
     """
     Titles and information
     """
-    st.markdown("# Customer")
+    st.markdown("# Consumer")
 
 def select_option():
     st.markdown("---")
@@ -45,7 +45,7 @@ def robot_check():
     """
     Checkbox to check if you are a robot
     """
-    val = st.checkbox("Are you a robot?")
+    val = st.checkbox("Are you sure you're not a robot?")
     if val:
         #st.dark_theme()
         st.markdown("I believe you :)")

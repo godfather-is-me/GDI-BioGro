@@ -10,8 +10,8 @@ import admin as ad
 def draw_sidebar():
     topics = [
         "Welcome",
-        "Producer's view",
-        "Customer's view"
+        "Licensee's view",
+        "Consumer's view"
         # "Admin's view"
     ]
 
