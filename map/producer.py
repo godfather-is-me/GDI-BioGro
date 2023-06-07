@@ -15,7 +15,8 @@ def title():
 def select_options():
     option = st.selectbox(
         "Producer Name",
-        dt.get_licensees()
+        dt.get_licensees(),
+        index=1
     )
 
     st.markdown("---")

@@ -5,7 +5,7 @@ def title():
     """
     Titles and information
     """
-    st.markdown("# Consumer")
+    st.markdown("# Consumer Page")
 
 def select_option():
     st.markdown("---")
@@ -13,7 +13,8 @@ def select_option():
 
     option = st.selectbox(
         "Product Name",
-        dt.get_products()
+        dt.get_products(),
+        index=1
     )
     return option
 
@@ -34,8 +35,8 @@ def store_details_output(product_name: str):
             st.write(row["Address"])
         with cols[1]:
             st.write("##### Timings")
-            st.write(row["Open time"])
-            st.write(row["Close time"])
+            st.write("Open Time :", row["Open time"])
+            st.write("Close Time:", row["Close time"])
         with cols[2]:
             st.write("##### Accessibility")
             st.write("Wheelchair Acessible:", row["Wheelchair Accessible"])
